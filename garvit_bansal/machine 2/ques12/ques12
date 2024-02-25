@@ -1,0 +1,12 @@
+start:  INP
+        STA 0 a
+        ADD 0 sum
+        STA 0 sum
+        LDA 0 a
+        SZA
+        BUN 0 start
+        LDA 0 sum
+        OUT
+        HLT
+a:      .data 1 0
+sum:    .data 1 0

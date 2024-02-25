@@ -1,0 +1,14 @@
+start:INP 
+      STA a
+      INP
+      STA b
+      CLA
+      LDA b
+      CMA
+      INC
+      ADD a
+      OUT
+      HLT
+a:    .data 1 0
+b:    .data 1 0
+c:    .data 1 0

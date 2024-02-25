@@ -1,0 +1,25 @@
+start:INP
+      STA 0 a
+      CMA
+      STA 0 b
+      INP
+      STA 0 c
+      CMA
+      STA 0 d
+      AND 0 a
+      CMA
+      STA 0 e
+      LDA 0 b
+      AND 0 c
+      CMA
+      STA 0 f
+      AND 0 e
+      CMA
+      OUT
+      HLT
+a:    .data 1 0
+b:    .data 1 0
+c:    .data 1 0
+d:    .data 1 0
+e:    .data 1 0
+f:    .data 1 0

@@ -1,0 +1,28 @@
+start:INP 
+      STA a
+      CMA
+      STA n_a
+      INP
+      STA b
+      CMA
+      STA n_b
+      LDA b
+      AND a
+      STA add
+      CMA
+      STA nand
+      LDA n_b
+      AND n_a
+      STA nor
+      CMA
+      STA or
+      OUT
+      HLT
+a:    .data 1 0
+b:    .data 1 0
+add:  .data 1 0
+nand: .data 1 0
+n_a:  .data 1 0
+n_b:  .data 1 0
+or:   .data 1 0
+nor:  .data 1 0

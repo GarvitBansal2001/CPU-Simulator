@@ -1,0 +1,6 @@
+start:  INP
+        OUT
+        CMA
+        HLT
+        OUT
+        HLT

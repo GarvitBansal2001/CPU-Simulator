@@ -1,0 +1,14 @@
+start:          INP
+                STA a
+first_check:    SNA
+                BUN add
+                BUN exit
+add:            LDA a
+                ADD sum
+                STA sum
+                BUN start
+exit:           LDA sum
+                OUT
+                HLT
+a:              .data 1 0
+sum:            .data 1 0       

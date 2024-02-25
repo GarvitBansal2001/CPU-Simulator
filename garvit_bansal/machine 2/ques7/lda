@@ -1,0 +1,5 @@
+start:  CLA
+        LDA 0 a
+        OUT
+        HLT
+a:      .data 1 9

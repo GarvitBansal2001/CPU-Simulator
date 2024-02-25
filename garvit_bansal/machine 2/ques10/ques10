@@ -1,0 +1,7 @@
+start:  INP
+        CIR
+        OUT
+        INP
+        CIL
+        OUT
+        HLT

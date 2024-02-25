@@ -1,0 +1,9 @@
+start:INP 
+      STA 0 a
+      INP
+      STA 0 b
+      ADD 0 a
+      OUT
+      HLT
+a:    .data 1 0
+b:    .data 1 0

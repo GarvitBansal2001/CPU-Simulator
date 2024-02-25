@@ -1,0 +1,5 @@
+start:  INP
+        STA a
+        BUN a
+        HLT
+a:      .data 1 0

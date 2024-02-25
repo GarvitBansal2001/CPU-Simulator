@@ -1,0 +1,20 @@
+start:      INP
+            STA a
+            INP
+            CMA
+            INC
+            STA b
+multiply:   LDA result
+            ADD a
+            STA result
+            LDA b
+            INC
+            STA b
+            SZA
+            BUN multiply
+output:     LDA result
+            OUT
+            HLT
+a:          .data 1 0
+b:          .data 1 0
+result:     .data 1 0

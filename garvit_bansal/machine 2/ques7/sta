@@ -1,0 +1,5 @@
+start:  INP
+        STA 0 a
+        OUT
+        HLT
+a:      .data 1 0
